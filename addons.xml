@@ -2,14 +2,39 @@
 <addons>
 <addon id="repository.infinitytv_test" name="TESTING INFINITY TV XBMC Plugins" version="1.0.0" provider-name="TESTING INFINITY TV">
 	<extension point="xbmc.addon.repository" name="TESTING INFINITY TV XBMC Plugins">
-		<info compressed="false">https://raw.githubusercontent.com/Ddubs/infinitytv_Ttesting/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Ddubs/infinitytv_Ttesting/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Ddubs/infinitytv_Ttesting/master/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/Ddubs/infinitytv_Testing/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Ddubs/infinitytv_Testing/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Ddubs/infinitytv_Testing/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Add-ons from INFINITY TV Repository</summary>
 		<description>INFINITY TV video plug-ins for XBMC</description>
 		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="skin.infinitytv"
+  version="0.0.23"
+  name="INFINITY TV"
+  provider-name="INFINITY TV">
+	<requires>
+		<import addon="xbmc.gui" version="5.0.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.2.4"/>
+		<import addon="service.library.data.provider" version="0.0.1"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  defaultthemename="textures.xbt"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>INFINITY TV skin</summary>
+		<description>INFINITY TV skin: Completely redesigned to create a modern look</description>
 		<platform>all</platform>
 	</extension>
 </addon>
