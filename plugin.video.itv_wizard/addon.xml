@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.itv_wizard" name="INFINITY TV Wizard" version="1.0.39" provider-name="INFINITY TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">INFINITY TV Wizard</summary>
+    <description lang="en">Welcome to INFINITY TV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
