@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.itv_wizard" name="INFINITY TV Wizard" version="0.0.44" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard" name="INFINITY TV Wizard" version="0.0.45" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
@@ -25,31 +25,6 @@
 		<summary>Install Add-ons from INFINITY TV Repository</summary>
 		<description>INFINITY TV video plug-ins for XBMC</description>
 		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon
-  id="skin.infinitytv"
-  version="0.0.29"
-  name="INFINITY TV"
-  provider-name="INFINITY TV">
-	<requires>
-		<import addon="xbmc.gui" version="5.0.0"/>
-		<import addon="script.grab.fanart" version="0.12.8"/>
-		<import addon="script.skinshortcuts" version="0.2.4"/>
-		<import addon="service.library.data.provider" version="0.0.1"/>
-	</requires>
-	<extension
-	  point="xbmc.gui.skin"
-	  defaultthemename="textures.xbt"
-	  debugging="false"
-	  effectslowdown="0.75">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>INFINITY TV skin</summary>
-		<description>INFINITY TV skin: Completely redesigned to create a modern look</description>
 		<platform>all</platform>
 	</extension>
 </addon>
